@@ -1,0 +1,27 @@
+{
+   "lambdatest_auth": {
+      "username": "xxxxxxxxxxxxxxx",
+      "access_key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   },
+   "browsers": [
+      {
+         "platform": "MacOS Big sur",
+         "browser": "Chrome",
+         "versions": ["latest"]
+      }
+   ],
+   "run_settings": {
+      "cypress_config_file": "cypress.json",
+      "build_name": "Personal-build",
+      "parallels": 1,
+      "specs": "./cypress/integration/1-getting-started/*.spec.js",
+      "ignore_files": "",
+      "feature_file_suppport": false,
+      "network": false,
+      "reporter_config_file": ""
+   },
+   "tunnel_settings": {
+      "tunnel": false,
+      "tunnel_name": null
+   }
+}
